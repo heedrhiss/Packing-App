@@ -29,7 +29,6 @@ function App() {
     const confirmed = window.confirm(
       "Are you sure you want to clear all items?🤔"
     );
-
     if (confirmed) setItems([]);
   }
 
